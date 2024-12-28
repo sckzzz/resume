@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  /* background: #f1f1f1; */
+  background: linear-gradient(rgb(80, 79, 79), white);
+  color: #0f141e;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: rgb(88, 88, 88);
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.avatar {
+  width: 350px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(255, 255, 255, 0.4);
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info-text {
+  margin-left: 40px;
+  /* color: color(srgb rgba(255, 255, 255, 0.438) green blue); */
+}
+
+.info-text p {
+  font-style: italic;
+  /* color: #000000; */
+  margin: 0;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.card {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.bg-red {
+  background: #850a0ae7;
+}
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 650px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #000000;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #0f141e;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+/* hr {
+  background-color: black;
+} */
+
+hr {
+  height: 1px;
+  background-color: black;
+  border: none;
+}
